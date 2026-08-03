@@ -5,7 +5,7 @@ export default function RightSideHero(){
       <Image
       src="/products.png"
       alt="products"
-      width={1100}
+      width={800}
       height={200}
       />
     </div>
