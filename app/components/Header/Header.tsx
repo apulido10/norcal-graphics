@@ -1,5 +1,5 @@
 import Logo from "./Logo";
-import Navigation from "./Navigation";
+import SearchBar from "./searchBar";
 import Checkout from "./Checkout";
 export default function Header() {
   return (
@@ -8,7 +8,7 @@ export default function Header() {
         <Logo />
       </div>
       <div className="flex-1">
-        <Navigation />
+        <SearchBar />
       </div>
       <div className="flex-1 flex justify-end">
         <Checkout/>

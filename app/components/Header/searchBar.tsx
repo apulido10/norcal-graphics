@@ -1,6 +1,6 @@
-export default function Navigation(){
+export default function SearchBar(){
   return (
-    <div>
+    <div className="flex gap-2">
       <input type="text" 
       placeholder="Search products..."
       className="border rounded-lg p-2 w-full"/>
