@@ -5,7 +5,7 @@ export default function Logo(){
             <Image
             src="/NorcalGraphicsWhite.png"
             alt="NorCal Graphics Logo"
-            width={180}
+            width={150}
             height={100}
             />
     </div>
