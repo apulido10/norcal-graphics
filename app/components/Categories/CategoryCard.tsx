@@ -32,13 +32,13 @@ const items = [
 ]
 
   return (
-    <div className="flex justify-between">
+    <div className="flex w-3/4 justify-between">
      
         {
           items.map((item)=> {
          return (
-          <div className="flex flex-col w-60 items-center  m-4 rounded-xl shadow-lg gap-3">
-            <div className="w-full h-40">
+          <div className="flex flex-col w-50 items-center  m-4 rounded-xl shadow-lg gap-3">
+            <div className="w-full h-30">
             <Image
             className="rounded-t-xl w-full h-full object-cover"
             src={item.image}

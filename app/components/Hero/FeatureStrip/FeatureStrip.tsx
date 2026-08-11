@@ -5,7 +5,7 @@ import Nationwideshipping from "./NationwideShipping"
 export default function FeatureStrip(){
     return (
       <div className="flex w-full bg-gray-100 justify-center">
-        <div className="p-5 w-3/4 flex justify-between">
+        <div className="p-2 w-3/4 flex justify-between">
             <PremiumQuality/>
             <FastTurnAround/>
             <DesignHelp/>
