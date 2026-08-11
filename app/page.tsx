@@ -3,6 +3,8 @@ import Footer from "./components/Footer";
 import Navigation from "./components/Navigation/Navigation";
 import Hero from "./components/Hero/Hero";
 import FeatureStrip from "./components/Hero/FeatureStrip/FeatureStrip";
+import Categories from "./components/Categories/Categories";
+import QuoteCTA from "./components/QuoteCTA/QuoteCTA";
 export default function Home() {
 
   
@@ -11,7 +13,9 @@ export default function Home() {
   <Header/>
   <Navigation/>
   <Hero/>
-  <FeatureStrip/>
+  <FeatureStrip/> 
+  <Categories/>
+  <QuoteCTA/>
   {/* <Footer/> */}
  </main>
   );

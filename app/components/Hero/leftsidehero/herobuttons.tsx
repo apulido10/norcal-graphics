@@ -1,7 +1,7 @@
 import { ArrowRight } from "lucide-react"
 export default function Herobuttons() {
   return (
-    <div className="flex gap-8 mt-10 mb-20">
+    <div className="flex gap-8  mb-3">
       <button className="bg-blue-600 p-4 rounded-md text-white font-semibold flex gap-2 items-center justify-center">
         Shop products
         <ArrowRight size={20} />
